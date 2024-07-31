@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>alpi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang!</h1><h1 style="background-color:DodgerBlue;"></h1>
+        <nav>
+            <ul>
+                <a href="https://smkbhayangkaridelog.sch.id/">Beranda</a>
+                
+                <a href="https://smkbhayangkaridelog.sch.id/direktori-guru-dan-tenaga-kependidikan">Profil guru</a>
+                
+                <a href="https://smkbhayangkaridelog.sch.id/hubungi-kami">Kontak kami</a>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>SMK KEMALA BHAYANGKARI DELOG</h2>
+            <p>Selamat datang di halaman depan kami! Kami berharap Anda dapat menemukan informasi yang berguna di sini.</p>
+        </section>
+        <section>
+            <html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h1 style="border:2px solid DodgerBlue;">Data Kehadiran</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>Nama</th>
+    <th>Kelas</th>
+    <th>Daftar Tidak Masuk</th>
+  </tr>
+  <tr>
+    <td>Steven</td>
+    <td>XII TJKT 2</td>
+    <td>45218376</td>
+  </tr>
+  <tr>
+    <td>Debora</td>
+    <td>XII AKL</td>
+    <td>31123751</td>
+  </tr>
+</table>
+
+<p>Berikut daftar murid yang tidak masuk ke sekolah selama 6 bulan</p>
+
+</body>
+</html>
+
+<h2>Gedung Sekolah</h2>
+<img src="https://www.smkbhayangkaridelog.sch.id/media_library/image_sliders/9637523810eeadde7c3177dab5663e68.jpg" alt="Trulli" width="500" height="333">
+
+</body>
+</html>
+
+<h2>Guru Sekolah Smk</h2>
+<img src="https://www.smkbhayangkaridelog.sch.id/media_library/image_sliders/0b014e9146d5c5d684f7b1127ad3b9ce.jpg" alt="Trulli" width="300" height="125">
+
+</body>
+</html>
+
+<h2>LINK Youtube</h2>
+
+<p>Berikut Link Youtube kegiatan Siswa Smk:</p>
+
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+</body>
+</html>
+
+<iframe width="325" height="185" src="https://www.youtube.com/embed/ZC6Bmp43sPo?si=SyKIZowoFKrwb2oI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<a href="https://www.youtube.com/embed/ZC6Bmp43sPo?si=SyKIZowoFKrwb2oI">Visit video</a>
+
+<html>
+<head>
+</head>
+<body>  
+
+<?php
+// define variables and set to empty values
+$name = $email = $gender = $comment = $website = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = test_input($_POST["name"]);
+  $email = test_input($_POST["email"]);
+  $website = test_input($_POST["website"]);
+  $comment = test_input($_POST["comment"]);
+  $gender = test_input($_POST["gender"]);
+}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>
+
+<h2>PHP Form Validation Example</h2>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+  Name: <input type="text" name="name">
+  <br><br>
+  E-mail: <input type="text" name="email">
+  <br><br>
+  Website: <input type="text" name="website">
+  <br><br>
+  Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+  <br><br>
+  Gender:
+  <input type="radio" name="gender" value="female">Female
+  <input type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="other">Other
+  <br><br>
+  <input type="submit" name="submit" value="Submit">  
+</form>
+
+<?php
+echo "<h2>Your Input:</h2>";
+echo $name;
+echo "<br>";
+echo $email;
+echo "<br>";
+echo $website;
+echo "<br>";
+echo $comment;
+echo "<br>";
+echo $gender;
+?>
+
+</body>
+</html>
+
+</body>
+</html>
